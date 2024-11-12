@@ -1,3 +1,6 @@
+<button mat-raised-button color="secondary" (click)="nuevo()">
+  Add product
+</button>
 @if (productList$ |async; as resultArray) {
 <ul>
   @for (item of resultArray; track item.name) {

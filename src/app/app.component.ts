@@ -1,5 +1,5 @@
 
-import { Component} from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from "./navbar/navbar.component";
 import { ProductListComponent } from "./product-list/product-list.component";
@@ -14,5 +14,5 @@ import { ProductListComponent } from "./product-list/product-list.component";
 })
 export class AppComponent {
 
- 
+
 }
