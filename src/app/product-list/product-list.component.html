@@ -1,0 +1,9 @@
+@if (productList$ |async; as resultArray) {
+<ul>
+  @for (item of resultArray; track item.name) {
+  <li class="results">
+    <app-product-item [productInfo]="item" />
+  </li>
+  }
+</ul>
+}
