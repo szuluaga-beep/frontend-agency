@@ -2,9 +2,9 @@
   Add product
 </button>
 @if (productList$ |async; as resultArray) {
-<ul>
+<ul class="results">
   @for (item of resultArray; track item.name) {
-  <li class="results">
+  <li class="item">
     <app-product-item [productInfo]="item" />
   </li>
   }
